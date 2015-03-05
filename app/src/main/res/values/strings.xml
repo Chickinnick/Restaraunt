@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Restaraunt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="splashButton">skip</string>
+    <string name="openWebButton">OPEN SITE</string>
+    <string name="title_activity_list_of_categories">ListOfCategoriesActivity</string>
+    <string name="title_activity_dishes_view">DishesViewActivity</string>
+    <string name="title_activity_full_image">FullImageActivity</string>
+    <string name="item1">Item1</string>
+    <string name="item2">Item2</string>
+    <string name="item3">Item3</string>
+    <string name="item4">Item4</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_service">ServiceActivity</string>
+
+</resources>
