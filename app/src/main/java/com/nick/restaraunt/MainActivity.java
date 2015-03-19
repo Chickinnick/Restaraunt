@@ -5,8 +5,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.Menu;
-import android.view.MenuItem;
+
 import android.view.View;
 import android.widget.Button;
 
@@ -28,7 +27,7 @@ public class MainActivity extends Activity {
 
         new Handler().postDelayed(new Runnable() {
             public void run() {
-                startActivity(new Intent(MainActivity.this, ListOfCategoriesActivity.class));
+                startActivity(new Intent(MainActivity.this, MainMenuActivity.class));
                 finish();
             }
         }, secondsDelayed * 1000);
@@ -39,7 +38,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 //переходим с первой на вторую активность
-                Intent intent = new Intent(MainActivity.this, ListOfCategoriesActivity.class);
+                Intent intent = new Intent(MainActivity.this, MainMenuActivity.class);
                 startActivity(intent);
 
             }

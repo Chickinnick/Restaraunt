@@ -9,6 +9,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/**
+ * Created by Nick on 16.03.2015.
+ */
 public class ImageTextAdapter extends BaseAdapter {
     private Context mContext;
     private int nomberInListOfCategories;
@@ -24,14 +27,14 @@ public class ImageTextAdapter extends BaseAdapter {
     public Object getItem(int position) {
         switch (position){
 
-        case 0:
-        return Dish.hotPicIds[position];
+            case 0:
+                return Dish.hotPicIds[position];
 
-        case 1:
-        return Dish.saladPicIds[position];
+            case 1:
+                return Dish.saladPicIds[position];
 
-        default:
-        return 0;}
+            default:
+                return 0;}
     }
 
     public long getItemId(int position) {
@@ -57,9 +60,9 @@ public class ImageTextAdapter extends BaseAdapter {
         switch (nomberInListOfCategories) {
 
             case 0:
-            imageView.setImageResource(Dish.hotPicIds[position]);
-            textView.setText(Dish.hotStrIds[position]);
-            break;
+                imageView.setImageResource(Dish.hotPicIds[position]);
+                textView.setText(Dish.hotStrIds[position]);
+                break;
             case 1:
                 imageView.setImageResource(Dish.saladPicIds[position]);
                 textView.setText(Dish.saladStrIds[position]);
@@ -86,8 +89,4 @@ public class ImageTextAdapter extends BaseAdapter {
 
         return grid;
     }
-
-
-
-
 }

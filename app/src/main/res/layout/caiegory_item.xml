@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/item_background"
-    >
-
-    <TextView
+ <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/item_background"
         android:id="@+id/nameOfCategory"
         android:textColor="#FFDEAD"
         android:textStyle="italic"
         android:textSize="20dp"
         android:textAlignment="center"
-        android:layout_margin="50dp"
+        android:layout_margin="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-</LinearLayout>

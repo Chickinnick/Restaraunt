@@ -34,16 +34,13 @@
             android:name=".WebViewActivity"
             android:label="@string/title_activity_web_view" >
         </activity>
-        <activity
-            android:name=".ServiceActivity"
-            android:label="@string/title_activity_service" >
-        </activity>
 
-        <service
-            android:name=".MyService"
-            android:enabled="true"
-            android:exported="true" >
-        </service>
+
+
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
     </application>
 
 </manifest>
