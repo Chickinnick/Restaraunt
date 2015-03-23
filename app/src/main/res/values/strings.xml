@@ -21,10 +21,14 @@
     <string name="text_ok">OK</string>
     <string name="text_cancel">cancel</string>
 
-
     <string-array name="dialog_items">
         <item>Открыть сайт в браузере</item>
         <item>Открыть в приложении</item>
     </string-array>
+
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="title_activity_foto_fragment">FotoFragmentActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_image_foto_fragment">ImageFotoFragment</string>
 
 </resources>

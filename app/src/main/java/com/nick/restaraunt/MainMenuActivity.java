@@ -6,16 +6,14 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.text.GetChars;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-
 public class MainMenuActivity extends Activity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +29,7 @@ public class MainMenuActivity extends Activity {
 
         btn1.setOnClickListener(oclBtn);
         btn2.setOnClickListener(oclBtn);
+        btn3.setOnClickListener(oclBtn);
 
 
     }
@@ -54,6 +53,9 @@ public class MainMenuActivity extends Activity {
                     showDialogWithSingleList();
                     break;
                 case R.id.btn3:
+
+                    intent = new Intent(MainMenuActivity.this, FotoFragmentActivity.class);
+                    startActivity(intent);
                     break;
                 case R.id.btn4:
                     break;
@@ -73,7 +75,6 @@ public class MainMenuActivity extends Activity {
     }
 
 
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id;
@@ -81,13 +82,10 @@ public class MainMenuActivity extends Activity {
         id = item.getItemId();
 
 
-
-        if(id == R.id.item3)
-        {
+        if (id == R.id.item3) {
 
             return true;
         }
-
 
 
         return super.onOptionsItemSelected(item);
@@ -119,13 +117,12 @@ public class MainMenuActivity extends Activity {
                 });
 
 
-
         AlertDialog dialog = builder.create();
         dialog.show();
     }
 
 
-void StartWebView(){
-    startActivity(new Intent(this, WebViewActivity.class));
-}
+    void StartWebView() {
+        startActivity(new Intent(this, WebViewActivity.class));
+    }
 }
