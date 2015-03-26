@@ -17,6 +17,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textViewStack"
         android:layout_centerHorizontal="true"
+
+        android:scaleType="center"
+
         android:layout_marginTop="61dp"
         android:src="@drawable/ic_launcher" />
 

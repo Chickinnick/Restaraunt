@@ -11,7 +11,7 @@ import android.widget.StackView;
 import java.util.ArrayList;
 
 
-public class ImageStackFragment extends Fragment {
+public class ImageStackFragment1 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
@@ -20,7 +20,7 @@ public class ImageStackFragment extends Fragment {
 
         ArrayList<FotoStackItem> items = new ArrayList<>();
 
-        items.add(new FotoStackItem("text1", this.getResources().getDrawable(R.drawable.foto_stack1)));
+        items.add(new FotoStackItem("OTHER FRAGMENT", this.getResources().getDrawable(R.drawable.foto_stack1)));
         items.add(new FotoStackItem("text2", this.getResources().getDrawable(R.drawable.foto_stack2)));
         items.add(new FotoStackItem("text3", this.getResources().getDrawable(R.drawable.foto_stack3)));
         items.add(new FotoStackItem("text4", this.getResources().getDrawable(R.drawable.foto_stack4)));

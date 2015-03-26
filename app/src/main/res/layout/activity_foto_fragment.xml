@@ -23,14 +23,22 @@
         android:layout_width="match_parent"
         android:layout_below="@+id/button_fragment" />
 
-    <fragment
+    <!--fragment
         android:id="@+id/fragment_stack_view"
 
         tools:layout="@layout/fragment_stack_view"
         android:name="com.nick.restaraunt.ImageStackFragment"
 
+
+android:layout_below="@+id/fragment_stack_view"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/fragment_image" />
+        android:layout_below="@+id/fragment_image" /-->
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>

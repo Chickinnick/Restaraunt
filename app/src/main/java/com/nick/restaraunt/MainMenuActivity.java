@@ -30,7 +30,8 @@ public class MainMenuActivity extends Activity {
         btn1.setOnClickListener(oclBtn);
         btn2.setOnClickListener(oclBtn);
         btn3.setOnClickListener(oclBtn);
-
+        btn4.setOnClickListener(oclBtn);
+        btn5.setOnClickListener(oclBtn);
 
     }
 
@@ -58,8 +59,14 @@ public class MainMenuActivity extends Activity {
                     startActivity(intent);
                     break;
                 case R.id.btn4:
+                    intent = new Intent(MainMenuActivity.this, DatabaseActivity.class);
+                    startActivity(intent);
+
                     break;
                 case R.id.btn5:
+                    intent = new Intent(MainMenuActivity.this, MediaActivity.class);
+                    startActivity(intent);
+
                     break;
 
 
