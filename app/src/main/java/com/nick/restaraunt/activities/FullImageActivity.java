@@ -1,9 +1,12 @@
-package com.nick.restaraunt;
+package com.nick.restaraunt.activities;
 
-import android.app.*;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
+
+import com.nick.restaraunt.ImageTextAdapter;
+import com.nick.restaraunt.R;
 
 public class FullImageActivity extends Activity {
 
@@ -18,7 +21,7 @@ public class FullImageActivity extends Activity {
 
         int nomber = i.getIntExtra("nomberInList", 0);
 
-        ImageTextAdapter imageAdapter = new ImageTextAdapter(this,nomber);
+        ImageTextAdapter imageAdapter = new ImageTextAdapter(this, nomber);
 
         ImageView imageView = (ImageView) findViewById(R.id.fullScreenDish);
         imageView.setImageResource((Integer) imageAdapter.getItem(nomber));

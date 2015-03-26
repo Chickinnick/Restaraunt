@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
 
 
-    tools:context="com.nick.restaraunt.MainMenuActivity"
+    tools:context="com.nick.restaraunt.activities.MainMenuActivity"
     android:background="@drawable/bkgrnd">
 
 
@@ -59,15 +59,21 @@
             android:layout_height="wrap_content" />
 
         <Button
+            android:text="DATABASE"
             android:id="@+id/btn4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <Button
+            android:text="media"
             android:id="@+id/btn5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
 

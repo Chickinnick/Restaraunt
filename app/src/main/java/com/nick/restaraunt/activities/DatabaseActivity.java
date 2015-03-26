@@ -1,4 +1,4 @@
-package com.nick.restaraunt;
+package com.nick.restaraunt.activities;
 
 import android.support.v7.app.ActionBarActivity;
 

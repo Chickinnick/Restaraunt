@@ -1,17 +1,18 @@
-package com.nick.restaraunt;
+package com.nick.restaraunt.activities;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
-import android.view.View;
+import android.support.v4.app.FragmentActivity;
+
+import com.nick.restaraunt.R;
 
 
-public class FotoFragmentActivity extends ActionBarActivity {
+public class FotoFragmentActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_foto_fragment);
-        if (savedInstanceState == null) {
+        /*if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container, new ImageStackFragment())
                     .commit();
@@ -42,8 +43,9 @@ public class FotoFragmentActivity extends ActionBarActivity {
                 .replace(R.id.container, new ImageStackFragment1())
                 .commit();
     }
+*/
 
-
+    }
 }
 
 

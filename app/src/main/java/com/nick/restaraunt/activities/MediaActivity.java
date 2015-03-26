@@ -1,4 +1,4 @@
-package com.nick.restaraunt;
+package com.nick.restaraunt.activities;
 
 import android.app.Activity;
 import android.media.AudioManager;
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.VideoView;
+
+import com.nick.restaraunt.R;
 
 import java.io.IOException;
 

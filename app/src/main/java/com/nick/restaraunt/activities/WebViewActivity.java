@@ -1,11 +1,11 @@
-package com.nick.restaraunt;
+package com.nick.restaraunt.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.nick.restaraunt.R;
 
 
 public class WebViewActivity extends Activity {
